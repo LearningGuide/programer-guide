@@ -1,0 +1,9 @@
+[![license](https://badgen.net/badge/license/MIT/blue)](https://github.com/LearningGuide/programer-guide/blob/master/LICENSE)
+[![stars](https://badgen.net/github/stars/LearningGuide/programer-guide)](https://github.com/LearningGuide/programer-guide/stargazers)
+[![forks](https://badgen.net/github/forks/LearningGuide/programer-guide)](https://github.com/LearningGuide/programer-guide/network/members)
+[![help-wanted](https://badgen.net/github/label-issues/LearningGuide/programer-guide/help%20wanted/open)](https://github.com/LearningGuide/programer-guide/labels/help%20wanted)
+[![issues](https://badgen.net/github/open-issues/LearningGuide/programer-guide)](https://github.com/LearningGuide/programer-guide/issues)
+[![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
+
+# programer-guide 
+程序员学习指南，包括但不仅限于以下开发语言：Java、Python、C、C++...，另外还有关于产品相关的教程与文档
