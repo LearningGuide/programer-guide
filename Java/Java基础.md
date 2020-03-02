@@ -1,6 +1,6 @@
 # Java
 + 基础
-   - 集合
+   - [集合](https://blog.csdn.net/ThinkWon/article/details/104588551)
    - 线程
    - I/O
      - [IO模型](https://www.cnblogs.com/cainingning/p/9556642.html)
