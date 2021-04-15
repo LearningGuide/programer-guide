@@ -1,1 +1,10 @@
+Spring上传文件内存出现溢出如何解决
+在springboot中上传大文件时要考虑内存的情况，一般我们会通过在执行服务时加入-Xms512m -Xmx512m等参数加大堆内存，但这是指标不治本的，关键还是看代码处理的时候有无导致内存泄漏的原因;
+MultipartFile其实只是一个接口，真正实现在org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.StandardMultipartFile，
+StandardMultipartFile里面有个javax.servlet.http.Part对象，
+Part也是一个接口，真正实现在org.apache.catalina.core.ApplicationPart，
+ApplicationPart里有个org.apache.tomcat.util.http.fileupload.FileItem接口和File,
+.FileItem实现是org.apache.tomcat.util.http.fileupload.disk.DiskFileItem，File表示上传的文件（是一个临时存放文件）
+DiskFileItem是由org.apache.tomcat.util.http.fileupload.disk.DiskFileItemFactory创建出来的，
+从DiskFileItemFactory.DEFAULT_SIZE_THRESHOLD = 10240可以得知如果文件大小在10KB以内，则直接放在内存，如果大于10KB,则存储在本地磁盘中（注意是存在临时目录中，意味着这个文件如果你不持久化那这个文件随时会被系统清除）
 
