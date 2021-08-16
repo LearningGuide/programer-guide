@@ -4,10 +4,12 @@
    - [ConcurrentHashMap扩容详解](https://blog.csdn.net/zzu_seu/article/details/106698150)
    - 线程
      - [线程池](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+     - [线程池](https://blog.csdn.net/baiye_xing/article/details/73481090)
    - I/O
      - [IO模型](https://www.cnblogs.com/cainingning/p/9556642.html)
    - JVM
    - SPI机制 [SPI](https://www.jianshu.com/p/3a3edbcd8f24)
+   - 
    
 # 后端技术栈的演进
 + [后端技术栈的演进](https://coderxing.gitbooks.io/architecture-evolution/di-san-pian-ff1a-bu-luo/613-nginx-fu-zai-jun-heng.html)
